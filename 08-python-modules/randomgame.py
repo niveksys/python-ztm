@@ -10,7 +10,7 @@ answer = randint(start, end)
 # check that input is a number 1~10
 while True:
     try:
-        guess = int(input(f'guess a number {start}~{end}'))
+        guess = int(input(f'guess a number {start}~{end}:  '))
         if 0 < guess < 11:
             if guess == answer:
                 print('you are a genius!')
